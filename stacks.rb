@@ -4,8 +4,8 @@ class Stack
   attr_reader :top, :contents
 
   def initialize(top=nil)
-    @top = top
     @contents = SinglyLinkedList.new(top)
+    @top = @contents.head
   end
 
   def inspect
