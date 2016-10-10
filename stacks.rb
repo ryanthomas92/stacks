@@ -14,12 +14,13 @@ class Stack
 
   def push (element)
     @contents.insert_at_start(element)
-    @top = element
+    @top = @contents.head
   end
 
   def pop
     popped_element = @top
     @contents.remove_from_start
+    @top = @contents.head
     popped_element
   end
 
