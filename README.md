@@ -11,13 +11,13 @@ Market: SF
 <!-- framing the "why" in big-picture/real world examples -->
 *This workshop is important because:*
 
-There are a handful of common ways we want to organize data. Sometimes we want data to be easily accessible no matter what index or key it lives at (array or object/hash/dictionary). Sometimes we want data to be organized in such a way that it is easy for the computer to store it without making a lot of space available ahead of time (linked list). In the case of stacks, we want to maximize the efficiency of adding an element to the "top" and returning an element from the top.
+There are a handful of common ways we want to organize data. Sometimes we want data to be easily accessible no matter what index or key it lives at (array or object/hash/dictionary). Sometimes we want data to be organized in such a way that it is easy for the computer to store it without making a lot of space available ahead of time (linked list). In the case of stacks, we want to maximize the efficiency of adding an element to the one end and returning an element from that same end.
 
 ### What are the objectives?
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
-- Describe a stack by its methods and first in, first out (FIFO) behavior.
+- Describe a stack by its methods and last in, first out (LIFO) behavior.
 - Build stack methods using linked list methods.
 
 ### Where should we be now?
