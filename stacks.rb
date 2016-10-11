@@ -1,5 +1,6 @@
 require_relative 'singly_linked_list'
 
+
 class Stack
   attr_reader :top, :contents
 
@@ -19,9 +20,11 @@ class Stack
 
   def pop
     popped_element = @top
-    @contents.remove_from_start
-    @top = @contents.head
-    popped_element
+    if popped_element != nil
+      @contents.remove_from_start
+      @top = @contents.head
+      popped_element.data
+    end
   end
 
   def empty?
@@ -29,24 +32,3 @@ class Stack
   end
 
 end
-
-
-def main
-  sta = Stack.new
-  p sta.inspect
-  sta.push 5
-  p sta.inspect
-  sta.push "fargo"
-  sta.push "minnetonka"
-  p sta.inspect
-  p sta.pop
-  p sta.inspect
-  p sta.empty?
-  sta.pop
-  sta.pop
-  sta.pop
-  p sta.inspect
-  p sta.empty?
-end
-
-main
