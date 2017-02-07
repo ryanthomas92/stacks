@@ -5,7 +5,7 @@ Market: SF
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-# Data Structures: Stacks and Queues
+# Data Structures: Stacks
 
 ### Why is this important?
 <!-- framing the "why" in big-picture/real world examples -->
@@ -32,8 +32,7 @@ There are a handful of common ways we want to organize data. Sometimes we want d
 1. How is a deck of cards similar to a linked list?
 1. What is the benefit of a linked list over an array?
 
-
-##Stacks
+## Stacks
 
 Stacks and queues are two commonly used data structures.  You can read about them below or watch [this video](https://www.youtube.com/watch?v=6QS_Cup1YoI). Note that all the operations mentioned in the video take O(1) time.
 
@@ -85,22 +84,9 @@ Stacks are "Last In, First Out" -- the last item pushed on top of a stack will b
  > The "top" could be the end of the array, and you could use array methods `push` and `pop`.  Thanks, JavaScript!
  </details>
 
-1. **Stretch:** How would you implement a stack with a fixed-size array?
-
-####Design Decisions
-
-Would you use a stack or a queue to...
-
-1. ... print out a list of instructions that must be done in order?
-
-1. ... allow a user to undo changes to a document, one by one?
-
-1. ... let users create playlists and play back the songs?
-
-1. ... display *only* the 10 most recent messages a user posted, in the order they were posted?
 
 
-#### Stacks
+#### Application of Stacks
 
 1. **The Call Stack**
 
@@ -126,4 +112,4 @@ Would you use a stack or a queue to...
 
  Write out the full call stack for `factorial(3)` at each step in the function's execution.
 
-1. **Stretch:** Try out [this stack challenge](stacks-challenge.md), an epic battle for correct code!
+1. **Stretch:** Try out [this stack challenge](challenge.md), an epic battle for correct code!
